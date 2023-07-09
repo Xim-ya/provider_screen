@@ -1,6 +1,6 @@
 name: provider_screen
-description: A new Flutter project.
-version: 0.0.1
+description: Boost productivity and enhance code readability with a simplified screen creation package based on Flutter's Provider state management.
+version: 1.0.0
 homepage: https://github.com/Xim-ya/provider_screen
 
 environment:
@@ -11,7 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.0.5
-
 
 
 dev_dependencies:
