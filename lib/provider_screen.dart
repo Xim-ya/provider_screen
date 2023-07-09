@@ -1,7 +1,5 @@
 library provider_screen;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/base_view_model.dart';
+export 'src/base_screen.dart';
+export 'src/base_view.dart';
