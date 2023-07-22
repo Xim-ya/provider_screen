@@ -34,7 +34,7 @@ The Provider Screen package is a comprehensive screen module that simplifies the
 - [BaseView](#baseview--nestedview-)
 
 
-# Key Features
+# Key Features  
 
 * 🔑 Simplified screen creation with the BaseScreen class
 * 🚀 Boost your productivity
@@ -81,7 +81,7 @@ import 'package:provider_screen/provider_screen.dart';
 1. Prepare `BaseViewModel`
 
 ```dart
-class CustomViewModel with BaseViewModel {
+class CustomViewModel extends BaseViewModel {
   final String userName = 'James';
 }
 ```
@@ -243,7 +243,7 @@ You can use these methods based on your preference and needs.
 # BaseViewModel
 The `BaseViewModel` class extends `ChangeNotifier` and provides methods for updating the widget and managing the `lifecycle` of the view model. Here is an example usage:
 ```dart
-class CounterViewModel with BaseViewModel {
+class CounterViewModel extends BaseViewModel {
   int count = 0;
 
   void increaseCount() {
@@ -259,7 +259,7 @@ The BaseViewModel class includes a `notifyListeners()` method, which you can use
 Here is an example of how you can use the BaseViewModel class:
 
 ```dart
-class CounterViewModel with BaseViewModel {
+class CounterViewModel extends BaseViewModel {
   int count = 0;
 
   void increaseCount() {
@@ -287,7 +287,7 @@ You can also access the screen's `context` in the view model. **This can make yo
 
 
 ```dart
-class CounterViewModel with BaseViewModel {
+class CounterViewModel extends BaseViewModel {
   int count = 0;
 
   void showAlertMessage() {
