@@ -3,6 +3,6 @@
 * Initial Version
 
 
-## 1.0.0
+## 1.0.1
 
-* Update README
+* Performance optimization (minimization of rebuilding)

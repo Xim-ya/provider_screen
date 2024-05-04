@@ -1,6 +1,6 @@
 name: provider_screen
 description: Boost productivity and enhance code readability with a simplified screen creation package based on Flutter's Provider state management.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Xim-ya/provider_screen
 
 environment:
